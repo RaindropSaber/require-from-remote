@@ -1,7 +1,7 @@
 {
 	"name": "require-from-remote",
-	"version": "1.0.4",
-	"description": "require a moudle from remote url in the nodejs environment",
+	"version": "1.0.5",
+	"description": "Require a remote bundle from url in the nodejs environment. \nCan be used with packing-node-module",
 	"main": "lib/index.js",
 	"scripts": {
 		"build": "tsc",
@@ -10,7 +10,10 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [
-		"require"
+		"require",
+		"remote",
+		"bundle",
+		"url"
 	],
 	"author": "raindropsaber@gmail.com",
 	"license": "MIT",
