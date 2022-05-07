@@ -4,7 +4,9 @@
   "description": "require a moudle from remote url in the nodejs environment",
   "main": "lib/index.js",
   "scripts": {
-    "watch": "npx tsc -watch",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,7 +15,7 @@
   "author": "raindropsaber@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "*",
     "require-from-string": "^2.0.2"
   },
   "devDependencies": {
